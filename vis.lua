@@ -1,4 +1,7 @@
-if game:GetService("RunService"):IsClient()then print("good boi") end;print("FE Compatibility: by WaverlyCole");InternalData = {}
+if game:GetService("RunService"):IsClient() then print("skipping gay skidded fe code") end
+if not game:GetService("RunService"):IsClient() then
+print("FE Compatibility: by WaverlyCole");
+InternalData = {}
 do
     script.Parent = owner.Character
     local Event = Instance.new("RemoteEvent");Event.Name = "UserInput"
@@ -125,6 +128,9 @@ RealGame = game;game = setmetatable({},{
         return nil
     end
 });Game = game;owner = game:GetService("Players").LocalPlayer;script = Instance.new("Script");print("Complete! Running...")
+end
+			
+if game:GetService("RunService"):IsClient() then print("skipped gay skidded fe code") end
 
 
 if game.Workspace:FindFirstChild("audio") then 
