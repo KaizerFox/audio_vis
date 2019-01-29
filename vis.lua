@@ -1,4 +1,4 @@
-if game:GetService("RunService"):IsClient() then print("skipping gay skidded fe code") end
+if game:GetService("RunService"):IsClient() then print("skipping gay skidded fe code") end --aaaaa
 if not game:GetService("RunService"):IsClient() then
 print("FE Compatibility: by WaverlyCole");
 InternalData = {}
